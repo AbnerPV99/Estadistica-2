@@ -1,0 +1,30 @@
+Resultados de la Regresión Lineal Multiple:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      Y   R-squared:                       0.917
+Model:                            OLS   Adj. R-squared:                  0.904
+Method:                 Least Squares   F-statistic:                     71.65
+Date:              vie., 17 may. 2024   Prob (F-statistic):           9.55e-08
+Time:                        18:20:36   Log-Likelihood:                -44.162
+No. Observations:                  16   AIC:                             94.32
+Df Residuals:                      13   BIC:                             96.64
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         46.4375      3.517     13.203      0.000      38.839      54.036
+X1             7.7750      0.949      8.197      0.000       5.726       9.824
+X2            -1.6550      0.190     -8.724      0.000      -2.065      -1.245
+==============================================================================
+Omnibus:                        1.952   Durbin-Watson:                   2.468
+Prob(Omnibus):                  0.377   Jarque-Bera (JB):                1.151
+Skew:                           0.340   Prob(JB):                        0.563
+Kurtosis:                       1.876   Cond. No.                         47.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+La ecuacion es: Y = 46.43750000000001 + 7.774999999999994 * 2.5 + -1.6549999999999985 * 12.0 = 46.015000000000015
